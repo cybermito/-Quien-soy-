@@ -4,19 +4,19 @@ Robot: Soy Mike, estoy buscando a una persona
 Robot: Por cierto ¿Como puedes trabajar con estos 33,5 grados? (pista)
 Narrador: En ese momento piensas en una decisión, por algo que detectas no te cuadra.
 Opción Interrogar Panadero: #2
-Opoción No Interrogar Panadero: #4
+Opción No Interrogar Panadero: #4
 
 #2 Interrogar:
 Robot: ¿Que ha sido ese ruido como un portazo?
 Panadero: ¿Que portazo?
 Robot: ¿Que es esa habitación de ahí?
 Panadero: Es el horno, ¿Que quieres? Tengo mucho trabajo
-Panadero: Si quieres pan, tomálo y largate ya.
+Panadero: Si quieres pan, tomalo y largate ya.
 Narrador: El panadero no confía en ti, porque piensa que puedes ser amigo del ayudante al que mantiene encerrado. Te percatas que el horno está a demasiada temperatura, y que el panadero oculta algo.
-Opción ayundante arde quemado: #6
+Opción ayudante arde quemado: #6
 
 #4 No Interrogar:
-Narrador: El panadero decide confiar en tí, y te cuenta que alguien había entrado y parecia haber robado algo en la panadería, y que lo mantiene encerrado en el horno.
+Narrador: El panadero decide confiar en ti, y te cuenta que alguien había entrado y parecia haber robado algo en la panadería, y que lo mantiene encerrado en el horno.
 Robot: ¿Le noto preocupado? ¿Le sucede algo?
 Panadero: Nada, he pillado ha alguien robando en mi panadería y lo he encerrado en el horno
 Opción: Liberar al ayudante #8
@@ -24,7 +24,7 @@ Opción: Quemas al ayudante #10
 
 #6 Ayudante quemado:
 Narrador: (Extrañamente Mike no siente nada la arder y morir el ayudante)
-Opción: Vuelves con la cientifica #12
+Opción: Vuelves con la científica #12
 Opción: Continuas tu camino... #14
 
 #8 Liberas al ayudante:
@@ -34,18 +34,18 @@ Opción: No respondes, y te marchas solo #16
 #8b Hablas con el ayudante:
 Ayudante: Gracias por sacarme de aquí, empezaba a hacer calor...
 Robot: ¿Que andabas buscando aquí en la panadería?
-Ayundate: Nada, vine a esconderme porque me perseguian. Ahora tenemos que ir en busca de la cientifica. ¿Vienes?
+Ayudate: Nada, vine a esconderme porque me perseguían. Ahora tenemos que ir en busca de la científica. ¿Vienes?
 Opción: Ayudas a buscar #18
 Opción: No haces nada, continuas tu camino #14
 
 #10 Quemas al ayudante:
-Narrador: Confias en el panadero, y quemas al ayudante en el horno. (Extrañamente no sientes nada al hacerlo) Pista
-Opción: Vuelves con la cientifica #12
+Narrador: Confías en el panadero, y quemas al ayudante en el horno. (Extrañamente no sientes nada al hacerlo) Pista
+Opción: Vuelves con la científica #12
 Opción: Te vas y continuas tu camino... #14
 
-#12 Vuelves con la cientifica:
-Cientifica: Mi ayudante estaba siendo perseguido por una organización enemiga. Este les robó los planos que tenían para la construcción de un arma de destrucción masiva para destruir una ciudad completa.
-Cientifica: Tenemos que ir hasta el otro lado del rio para estár a salvo.
+#12 Vuelves con la científica:
+Científica: Mi ayudante estaba siendo perseguido por una organización enemiga. Este les robó los planos que tenían para la construcción de un arma de destrucción masiva para destruir una ciudad completa.
+Científica: Tenemos que ir hasta el otro lado del rio para estar a salvo.
 Opción: Acompañas hasta el rio #20
 Opción: No acompañas, continuas tu camino #14
 
@@ -59,89 +59,89 @@ Opción: Te diriges hacia la fuente #26
 Opción: Te diriges hacia la calle #28
 
 #20 Acompañas hasta el rio:
-Narrador: Vas con la cientifica hasta el rio, en ese instante aparece el Panadero
+Narrador: Vas con la científica hasta el rio, en ese instante aparece el Panadero
 Panadero: Quietos ahí, os tengo atrapados
 Opción: Escapar por el rio #30
-Opción: Te sacrificas por la cientifica #32
+Opción: Te sacrificas por la científica #32
 
 #22 Hacia la fuente:
 Narrador: Miras por todos lados, alrededor de la fuente, y no encuentras nada, con lo cual te diriges hacia la calle #34
 
 #24 Hacia la calle:
-Narrador: Descubres que el ayudante está persiguiendo a la cientifica para matarla y te cuenta que se ha escapado de la organización maligna.
-Cientifica: Hola Mike, estoy siendo perseguida por mi ayudante, crei que era de fiar.
+Narrador: Descubres que el ayudante está persiguiendo a la científica para matarla y te cuenta que se ha escapado de la organización maligna.
+Científica: Hola Mike, estoy siendo perseguida por mi ayudante, creí que era de fiar.
 Robot: ¿Como?
-Cientifica: Si, el pertenece a la organización maligna que tienen un arma de destrucción masiva, y ahora me persigue para matarme.
-Narrador: Aparece el ayudante y coge a la cientifica.
+Científica: Si, el pertenece a la organización maligna que tienen un arma de destrucción masiva, y ahora me persigue para matarme.
+Narrador: Aparece el ayudante y coge a la científica.
 Ayudante: No es cierto, llevo detrás de atraparla hace tiempo, es ella la que está creando el arma de destrucción masiva.
 Opción: Dejas que la mate #36
-Opción: Ayudas a la cientifica #38
+Opción: Ayudas a la científica #38
 
 #26 Te diriges hacia la fuente:
-Narrador: Tu y el ayudante llegais a la fuente, mirais por todos lados, y no encuentrais a nadie por la zona, con lo que os dirigis hacia la calle
+Narrador: Tu y el ayudante llegáis a la fuente, miráis por todos lados, y no encontráis a nadie por la zona, con lo que os dirigís hacia la calle
 Ayudante: Parece que no hay nadie por aquí, no la localizamos.
 Robot: Cierto, no la he podido tampoco localizar, no detecto su presencia (pista)
-Opción: Os dirigis haca la calle #28
+Opción: Os dirigís haca la calle #28
 
 #28 Te diriges hacia la calle:
-Narrador: Tu y el ayunte encontrais a la cientifica, y el ayudante quiere matarla.
-Ayudante: Quieta ahí, por fín te atrape, no podrás escapar
-Robot: ¿Que ocures aquí?
-Ayudante: Es una espia, y ha robado unos planos de un arma de destrucción masiva
-Cientifica: No es cierto, el espia es el, ha estado haciendo se pasar por mi ayudante
+Narrador: Tu y el ayudante encontráis a la científica, y el ayudante quiere matarla.
+Ayudante: Quieta ahí, por fin te atrape, no podrás escapar
+Robot: ¿Que ocurre aquí?
+Ayudante: Es una espía, y ha robado unos planos de un arma de destrucción masiva
+Científica: No es cierto, el espía es el, ha estado haciendo se pasar por mi ayudante
 Opción: Dejas que la mate #36
-Opción: Ayudas a la cientifica #38
+Opción: Ayudas a la científica #38
 
 #30 Escapar por el río.
-Robot: Vamos, rapido, crucemos el rio
-Cientifica: No, no, es peligroso. (pista)
+Robot: Vamos, rápido, crucemos el rio
+Científica: No, no, es peligroso. (pista)
 Robot: Para nada es peligroso, por esta zona no hay tanta corriente.
-Narrador: Coges a la cientifica y tratais de escapar por el rio, pero debido a tu peso, os hundís y moris ambos.
+Narrador: Coges a la científica y tratáis de escapar por el rio, pero debido a tu peso, os hundís y morís ambos.
 FIN:
 
-#32 Te sacrificas por la cientifica:
-Narrador: Te interpones en el camino del panadero y la cientifica, forcejeando con el.
-Robot: Corre, rapido, vete, huye de aquí y salvate.
-Cientifica: No, ten cuidado con el panadero, te espero
-Robot: Rapido escapa tu, nos encontraremos al otro lado del rio, detendre a este malandrin.
-Narrador: Te sacrificas, para conseguir que la cientifica este a salvo, y de esa manera resarcirte por haber matado al ayudante.
+#32 Te sacrificas por la científica:
+Narrador: Te interpones en el camino del panadero y la científica, forcejeando con el.
+Robot: Corre, rápido, vete, huye de aquí y salvate.
+Científica: No, ten cuidado con el panadero, te espero
+Robot: Rápido escapa tu, nos encontraremos al otro lado del rio, detendré a este malandrín.
+Narrador: Te sacrificas, para conseguir que la científica este a salvo, y de esa manera resarcirte por haber matado al ayudante.
 FIN:
 
 #34 Te diriges hacia la calle:
-Narrador: Buscas por la calle, y te encuentras a la cientifica tendida en el suelo, muerta. El ayudante escapo, sin tu saberlo. Sigues mirando por encontrar alguna evidencia más de lo que ha ocurrido, encuentras un objeto en el suelo, te agachas para cogerlo, es un pulsador, y sin saber por que lo activas. De este modo poniendo en funcionamiento el arma  de destrucción, y haciendo que toda la ciudad explote y salte por los aires.
+Narrador: Buscas por la calle, y te encuentras a la científica tendida en el suelo, muerta. El ayudante escapo, sin tu saberlo. Sigues mirando por encontrar alguna evidencia más de lo que ha ocurrido, encuentras un objeto en el suelo, te agachas para cogerlo, es un pulsador, y sin saber por que lo activas. De este modo poniendo en funcionamiento el arma  de destrucción, y haciendo que toda la ciudad explote y salte por los aires.
 
 #36 Dejas que la mate:
 Ayudante: Bien hecho Mike, no esperaba menos de ti.
 Robot: No entiendo, ¿Que quieres decir?
-Narrador: En ese mismo instante el ayudante mata a la cientifica, y unos amigos de este, y pertenecientes a la organización maligna, en un dirigible, os recogen para sacaros de la ciudad.
-Ayundate: Gracias, has servido muy bien para el proposito que fuiste creado (pista)
-Narrador: Salis de la ciudad en el dirigible, y el ayudante acciona el boton para la destrucción de la ciudad, en una gran explosión nuclear.
+Narrador: En ese mismo instante el ayudante mata a la científica, y unos amigos de este, y pertenecientes a la organización maligna, en un dirigible, os recogen para sacaros de la ciudad.
+Ayudante: Gracias, has servido muy bien para el propósito que fuiste creado (pista)
+Narrador: Salís de la ciudad en el dirigible, y el ayudante acciona el botón para la destrucción de la ciudad, en una gran explosión nuclear.
 
-#38 Ayudas a la cientifica
-Cientifica: (Al ayudante) Traidor como puedes trabajar para tan malvados seres.
+#38 Ayudas a la científica
+Científica: (Al ayudante) Traidor como puedes trabajar para tan malvados seres.
 Ayudante: Pagaban más, jajajaja (Risa maligna)
-Narrador: Empujas al ayudante, y la cientifica y tu huis corriendo hacia el rio, mientras este os persigue.
+Narrador: Empujas al ayudante, y la científica y tu huis corriendo hacia el rio, mientras este os persigue.
 Opción: Escapar por el rio #40
 Opción: Escapar por dirigible #42
 
 #40 Escapar por el rio.
-Narrador: Intentais escapar por el rio.
-Cientifica: Vamos Mike, camina rapido, hemos de cruzar el rio.
+Narrador: Intentáis escapar por el rio.
+Científica: Vamos Mike, camina rápido, hemos de cruzar el rio.
 Robot: No consigo avanzar, no se que pasa
-Cientifica: Venga utiliza la fuerza Mike, son unos pasos y saldremos de aquí.
+Científica: Venga utiliza la fuerza Mike, son unos pasos y saldremos de aquí.
 Robot: No lo consigo, continua tu, sigue...
-Narrador: Cientifica consigue llegar al otro lado de la orilla salvandose.
-Cientifica: Gracias. Nos has servido para el proposito de creación.
+Narrador: Científica consigue llegar al otro lado de la orilla salvándose.
+Científica: Gracias. Nos has servido para el propósito de creación.
 Narrador: Te hundes en el rio, y la ciudad queda salvada de la destrucción por el organismo maligno.
 FIN:
 
 #42 Escapar por dirigible:
 Narrador: Aparece un dirigible en el cielo, que se acerca hacia vosotros.
-Cientifica: Ya están aquí mis compañeros y amigos para sacarnos de la ciudad.
+Científica: Ya están aquí mis compañeros y amigos para sacarnos de la ciudad.
 Robot: Bien, subamos y salgamos de este infierno.
-Narrador: Sube la cientifica al dirigible, y al intentar subir tu, te das cuenta que por el peso no puedes subir, te despides de la cientifica.
+Narrador: Sube la científica al dirigible, y al intentar subir tu, te das cuenta que por el peso no puedes subir, te despides de la científica.
 Robot: No puedo subir, algo lo impide.
-Cientifica: Lo entenderas pronto, adiós y gracias, nos serviste para el proposito que fuiste creado.
+Científica: Lo entenderás pronto, adiós y gracias, nos serviste para el propósito que fuiste creado.
 Robot: Adiós.
-Narrador: La cientifica y sus amigos se van en el dirigible, tu quedas en la ciudad descubriendo quien eres. Y sabiendo que la ciudad ha sido salvada.
+Narrador: La científica y sus amigos se van en el dirigible, tu quedas en la ciudad descubriendo quien eres. Y sabiendo que la ciudad ha sido salvada.
 FIN:
